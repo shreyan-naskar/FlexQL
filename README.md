@@ -80,6 +80,13 @@ Client usage:
 
 The benchmark runner connects to a FlexQL server at `127.0.0.1:9000`, so make sure the server is already running on that address before starting it.
 
+If new benchmark code is to be implemented, check the following files:
+```bash
+src/client/benchmark_flexql.cpp
+src/client/flexql.cpp
+src/client/flexql.h
+```
+
 ### Quick benchmark run
 
 Run the helper script:
